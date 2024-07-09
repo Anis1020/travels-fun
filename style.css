@@ -1,0 +1,208 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background-color: pink;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 8px;
+}
+.navContainer {
+  display: flex;
+  gap: 15px;
+}
+.navContainer li {
+  list-style: none;
+}
+.banner-section {
+  background: url("./assets/Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.banner-text {
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+.finding-section {
+  background-color: #fff;
+  padding: 10px;
+  opacity: 0.3;
+}
+
+input,
+select {
+  width: 8rem;
+  padding: 6px;
+  background-color: rgb(233, 17, 17);
+  border: 2px solid white;
+}
+
+.popular-tours {
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  gap: 5rem;
+  height: 70vh;
+}
+@media screen and (max-width: 992px) {
+  .popular-tours {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 32rem;
+  }
+}
+/* .popular_tour_text ul {
+  padding: 40px auto;
+} */
+.popular-img img {
+  max-width: 100%;
+}
+/* .destination {
+  margin: 80px auto;
+} */
+
+.destination_text {
+  text-align: center;
+  margin-top: 80px;
+}
+.destination_locations {
+  display: grid;
+  grid-template-columns: repeat(auto-fill minmax(350px, 1fr));
+  /* grid-template-rows: 200px repeat(3, 1fr); */
+  /* max-width: 1200px; */
+  gap: 10px;
+}
+/* .destination_locations > div {
+  border: 2px solid green;
+} */
+
+.one {
+  grid-column: 1/7;
+}
+.two {
+  grid-column: 7/13;
+}
+.three {
+  grid-column: 1/5;
+}
+.four {
+  grid-column: 5/9;
+}
+.five {
+  grid-column: 9/13;
+}
+.six {
+  grid-column: 1/7;
+}
+.seven {
+  grid-column: 7/13;
+}
+.destination img {
+  max-width: 100%;
+}
+@media only screen and (max-width: 900px) {
+  .destination_locations {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.feature_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.our_best_services {
+  width: 45%;
+  background-color: pink;
+  padding: 9px;
+}
+.discounter_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.discount_one {
+  background-image: url("./assets/Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.discount_two {
+  background-image: url("./assets/Images/Group\ 40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.discount_info {
+  width: 45%;
+  background-color: pink;
+  opacity: 0.6;
+  padding: 29px;
+  margin-right: 60px;
+  border-radius: 40px;
+  height: 50vh;
+  display: flex;
+
+  align-items: center;
+  transform: translate(500px, 65px);
+}
+
+.discount_two .discount_info {
+  width: 45%;
+  background-color: pink;
+  opacity: 0.6;
+  padding: 29px;
+  margin-right: 60px;
+  border-radius: 40px;
+  height: 50vh;
+  display: flex;
+
+  align-items: center;
+  transform: translate(50px, 65px);
+}
+
+.newsLater {
+  padding: 20px;
+  border: 2px solid tomato;
+  border-radius: 30px;
+}
+.newsLater hr {
+  width: 83%;
+  margin-left: 4px;
+}
+.newsLater input {
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.footer_logo {
+  display: flex;
+  justify-content: center;
+}
